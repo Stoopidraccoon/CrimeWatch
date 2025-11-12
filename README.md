@@ -96,7 +96,7 @@ It converts fear into evidence, silence into reports, and confusion into actiona
  - Generates analytics data for dashboard   
 
  - **Database Layer**                 
- -                  (MySQL)                     
+     (MySQL)                     
  -  Stores users, reports, evidence, logs    
  -  Ensures data integrity & security        
  - Enables filtering, tracking, and stats   
