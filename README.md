@@ -74,8 +74,8 @@ It converts fear into evidence, silence into reports, and confusion into actiona
 **Backend:** Python (Flask / Django)  
 **Database:** SQLite / PostgreSQL  
 **Design & Planning:**  
-- [🎨 Figma Prototype](#)  
-- [📋 Trello Board](#)
+- [🎨 Figma Prototype](https://www.figma.com/proto/Xzsicqrgq9PhMV5JyBKDYz/CRIME-WATCH?node-id=1-2&t=2dSAcP4DSyL9Ouyv-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2)  
+- [📋 Trello Board](https://trello.com/b/b1kkvWP2/crime-watch)
 ---
 
 ## 🧭 Architecture Overview 
