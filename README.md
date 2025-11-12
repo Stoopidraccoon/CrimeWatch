@@ -79,33 +79,27 @@ It converts fear into evidence, silence into reports, and confusion into actiona
 ---
 
 ## 🧭 Architecture Overview 
-┌──────────────────────────────────────────────┐
-│                Frontend Layer                │
-│        (HTML / CSS / JS / React)             │
-│   • Collects user input                      │
-│   • Displays case status, analytics, etc.    │
-│   • Sends requests to backend APIs           │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│             Backend / API Layer              │
-│           (Python Flask / Django)            │
-│   • Handles authentication & authorization   │
-│   • Validates and processes user data        │
-│   • Communicates with database               │
-│   • Controls business logic and workflows    │
-│   • Generates analytics data for dashboard   │
-└──────────────────────────────────────────────┘
-                     │
-                     ▼
-┌──────────────────────────────────────────────┐
-│               Database Layer                 │
-│                  (MySQL)                     │
-│   • Stores users, reports, evidence, logs    │
-│   • Ensures data integrity & security        │
-│   • Enables filtering, tracking, and stats   │
-└──────────────────────────────────────────────┘
+
+  - **Frontend Layer**               
+  - (HTML / CSS / JS / React)            
+  - Collects user input                      
+  - Displays case status, analytics, etc.    
+  - Sends requests to backend APIs           
+
+                    
+ - **Backend / API Layer**             
+        (Python Flask / Django)            
+ - Handles authentication & authorization 
+ - Validates and processes user data        
+ - Communicates with database               
+ - Controls business logic and workflows    
+ - Generates analytics data for dashboard   
+
+ - **Database Layer**                 
+ -                  (MySQL)                     
+ -  Stores users, reports, evidence, logs    
+ -  Ensures data integrity & security        
+ - Enables filtering, tracking, and stats   
 
 ## Summary
 
